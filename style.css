@@ -1,0 +1,109 @@
+.navbar .nav-item .nav-link,#he1{
+    color: #7c45c4;   
+}
+.carousel-inner .carousel-item .img{
+    height: 50%;
+    width: 50%;
+}
+#he2{
+    color:#ec947c;
+}
+#b{
+    background-color: #7c45c4;
+    color: white;
+}
+#b1{
+    border:2px solid #7c45c4;
+    color: #7c45c4;
+    
+    
+}
+#hm{
+    height:50%;
+    width: 50%;
+}
+.footer {
+    /* background-color: #7c45c4; */
+    /* background-color:  rgb(215,177,255); */
+    background: linear-gradient(90deg, rgba(124,69,196,1) 18%, rgba(63,9,207,1) 100%);
+     
+    color: white;
+    padding: 40px 0;
+    width:100%;
+  }
+  .footer .footer-column{
+    text-align: center;
+  }
+
+  .footer a {
+    color: rgba(255, 255, 255, 0.947);
+    text-decoration: none;
+    justify-content: center;
+  }
+  .footer p{
+    justify-content: center;
+  }
+
+  /* .footer a:hover {
+    color: white;
+  } */
+
+  .footer .footer-heading {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .footer .footer-column {
+    margin-bottom: 10px;
+  }
+
+  
+  
+    .back {
+        width: 450px;
+        height: 450px;
+        background: radial-gradient(
+          ellipse,
+          rgb(0, 0, 255) 0%,
+          rgb(170, 55, 180) 100%
+        );
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+        animation: pulse 5s infinite ease-in-out;
+        position: relative;
+        box-shadow: 0 2px 5px 5px #6f42c1;
+      }
+      @keyframes pulse {
+        0% {
+          border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+        }
+        33% {
+          border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+        }
+        66% {
+          border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+        }
+    }
+    .carousel-item img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+      .carousel-item .testimonial-content {
+        text-align: center;
+        padding: 20px;
+      }
+      .carousel-control-prev, .carousel-control-next {
+        width: 5%;
+        color: black;
+        /* background-color: white; */
+      }
+      .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: rgba(31, 29, 29, 0.5);
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        /* color: black; */
+      
+      }
